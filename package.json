@@ -1,0 +1,27 @@
+{
+  "name": "gobarber",
+  "version": "1.0.0",
+  "description": "Projeto node realizado no curso Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorSieli/goBarber.git"
+  },
+  "author": "Victor Thiago Silva Elias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VictorSieli/goBarber/issues"
+  },
+  "homepage": "https://github.com/VictorSieli/goBarber#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
